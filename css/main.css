@@ -17,13 +17,19 @@
   color: #2196f3;
 }
 
+.project-work, .team, .occupation__list, .feature__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .header {
   background-color: #FFFFFF;
   border-bottom: 1px solid #ececec;
 }
 .header__container {
-  display: flex;
+  justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .logo {
@@ -43,8 +49,9 @@
 }
 
 .navigation {
-  display: flex;
+  justify-content: center;
   align-items: center;
+  display: flex;
 }
 .navigation__item:not(:last-child) {
   margin-right: 50px;
@@ -80,8 +87,9 @@
 
 .contacts {
   margin-left: auto;
-  display: flex;
+  justify-content: center;
   align-items: center;
+  display: flex;
 }
 .contacts__item:not(:last-child) {
   margin-right: 50px;
@@ -404,8 +412,6 @@
   padding-bottom: 94px;
 }
 .feature__list {
-  display: flex;
-  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -463,11 +469,6 @@
   color: #212121;
 }
 
-.occupation__list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .occupation__item {
   width: 370px;
   height: 294px;
@@ -517,10 +518,6 @@
   color: #212121;
 }
 
-.team {
-  display: flex;
-  flex-wrap: wrap;
-}
 .team__content {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -698,10 +695,6 @@
   background-color: #2196f3;
 }
 
-.project-work {
-  display: flex;
-  flex-wrap: wrap;
-}
 .project-work__link {
   text-decoration: none;
 }

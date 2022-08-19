@@ -12,6 +12,10 @@
 %hover-style:focus{
     color: $accent-color;
 }
+%flex-wrap{
+ display: flex;
+ flex-wrap: wrap;
+}
 @mixin flex($justify-content: center,
     $align-items: center,
     $display: flex)
